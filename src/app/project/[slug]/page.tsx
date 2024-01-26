@@ -14,11 +14,13 @@ const ProjectDetail = ({ params }: { params: { slug: string } }) => {
           <div className="flex items-center gap-3">
             <Link
               href={project?.link!}
+              target="_blank"
               className="rounded-md bg-blue-600 px-2 py-2 md:px-5"
             >
               Live site
             </Link>
             <Link
+              target="_blank"
               href={project?.repo!}
               className="rounded-md bg-gray-800 px-5 py-2"
             >

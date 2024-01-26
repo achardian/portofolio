@@ -38,12 +38,16 @@ const ProjectCard = ({ project }: { project: Project }) => {
           <div className="flex items-center gap-3">
             <Link
               href={project.repo}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()}
               className="rounded-lg bg-slate-100/15 p-2"
             >
               <Github className="h-4 w-4" />
             </Link>
             <Link
               href={project.link}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()}
               className="rounded-lg bg-slate-100/15 p-2"
             >
               <ExternalLink className="h-4 w-4" />

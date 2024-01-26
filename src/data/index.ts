@@ -94,10 +94,11 @@ const projects = [
       "Save other user post in bookmarks",
       "Add other user post in favorites",
       "Add comment on post",
+      "Infinite scroll on posts",
       "Dark mode toggle",
     ],
-    link: "https://pinterest-clone-sigma.vercel.app//",
-    repo: "https://github.com/achardian/pinterest-clone",
+    link: "https://societal-8gd7.vercel.app/",
+    repo: "https://github.com/achardian/societal",
     images: [
       "/projects/societal-1.png",
       "/projects/societal-2.png",
